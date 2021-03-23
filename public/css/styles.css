@@ -6074,7 +6074,7 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #1B5593 !important;
-  background-image: linear-gradient(to bottom right, #1F61A9, #0F2E4F);
+  background-image: linear-gradient(to bottom right, #0078ff, #0F2E4F);
   box-shadow: 2px 2px 20px #000;
 }
 
@@ -9000,7 +9000,7 @@ button.bg-dark:focus {
 
   .pr-lg-3,
 .px-lg-3 {
-    padding-right: 1rem !important;
+    padding-right: 0.75rem !important;
   }
 
   .pb-lg-3,
@@ -9010,7 +9010,7 @@ button.bg-dark:focus {
 
   .pl-lg-3,
 .px-lg-3 {
-    padding-left: 1rem !important;
+    padding-left: 0.75rem !important;
   }
 
   .p-lg-4 {
@@ -9777,7 +9777,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4993D2 !important;
+  color: #5fa4e0 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9980,7 +9980,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 5rem 0;
+  padding: 3.5rem 0;
 }
 .contact-page {
   padding: 2rem 0 !important;
@@ -10079,7 +10079,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #4993D2;
+  color: #0078ff
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10151,6 +10151,7 @@ h3 {
   text-align: center;
   color: #fff;
   background-color: #fff;
+  border: 2.5px solid #A1A3A4;
 }
 .img-circle {
   border-radius: 50%;
