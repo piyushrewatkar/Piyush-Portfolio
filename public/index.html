@@ -21,9 +21,10 @@
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Piyush Rewatkar</a>
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleIcon();">
                     &nbsp;
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" id="bars"></i>
+                    <i class="fas fa-times" id="cross"></i>
                     &nbsp;
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -74,7 +75,7 @@
                     <i class="fa fa-star fa-stack-1x fa-inverse"></i>
                   </span>
                   <h4 class="service-heading">Areas Of Expertise</h4>
-                  <p class="text-muted">Android Development, &nbsp; Web Development (MERN stack) </p>
+                  <p class="text-muted">Web Development (MEAN stack), &nbsp;Spring Boot </p>
                 </div>
                 <div class="col-lg-4 mr-auto">
                   <span class="fa-stack fa-4x">
@@ -82,9 +83,11 @@
                     <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                   </span>
                   <h4 class="service-heading">Programming Skills</h4>
-                  <p class="text-muted">C, &nbsp; Java, &nbsp; C++, &nbsp;JavaScript,&nbsp;SQL, &nbsp;Python,
-                    &nbsp;Git, &nbsp;HTML5, &nbsp;CSS3, &nbsp;MySQL, &nbsp;Firebase/FireStore,
-                     &nbsp;Bootstrap, &nbsp;MongoDB, &nbsp;React.js/Redux , &nbsp;NodeJs, &nbsp;TensorFlow Lite </p>
+                  <p class="text-muted">C, Java, Python, JavaScript, TypeScript, HTML, CSS,
+                    Spring MVC, Node.js, Hibernate
+                    MongoDB, SQL, 
+                    Pandas, NumPy, Matplotlib, React.js, Junit
+                     </p>
                 </div>
                 <div class="col-lg-4 mr-auto">
                   <span class="fa-stack fa-4x">
@@ -92,23 +95,16 @@
                     <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                   </span>
                   <h4 class="service-heading">Software/Tools</h4>
-                  <p class="text-muted">MS Visual Studio,&nbsp;Android studio,&nbsp;MS Office,
-                   &nbsp;Robo 3T, &nbsp;Hyper-Ledger Fabric, &nbsp;Postman,&nbsp;Adobe-XD</p>
+                  <p class="text-muted">Visual Studio Code,&nbsp;Android studio,&nbsp;SQL Workbench,
+                   &nbsp;Eclipse,&nbsp;Postman,&nbsp;GitHub,&nbsp;DB Visualizer</p>
                 </div>
               </div>
-              
-              <!-- <h4 class="blue-gray-text lighten-4 center" data-aos="zoom-out-right"><i class="fa fa-file-text-o blue-text text-darken-4" aria-hidden="true"></i>&nbsp;&nbsp;Download My Résume</h4>
-              <p class="center" data-aos="zoom-out-right">You can download my résume in <strong>PDF</strong> format if you would like.</p>
-              <div class="center resume_buttons" data-aos="zoom-out-right">
-                  <a class="waves-effect waves-light btn-large green_background center btn-resume" href="https://drive.google.com/file/d/10j4CB7483DyXks7GuSe-4aVs0c9qPmRR/view" download><i class="fa fa-cloud-download" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Download</a>
-                  <a class="waves-effect waves-light btn-large green_background center btn-resume" href="https://drive.google.com/file/d/10j4CB7483DyXks7GuSe-4aVs0c9qPmRR/view" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;View</a>
-              </div> -->
             </div>
           </section>
-        
-        
+          <!-- style="background-color: #F0F2F4;" -->
+          
         <!-- Experience Section-->
-        <section id="experience" class="page-section mb-0" style="background-color: #F0F2F4;">
+        <section id="experience" class="page-section mb-0" style="background-image: linear-gradient(#f5f5f5,#fff);">
             <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -131,63 +127,15 @@
                         <h5 class="subheading">May 2019 - Present | Nagpur</h5>
                         </div>
                         <div class="timeline-body">
-                        <p class="text-muted">Compufest is the official Technical fest of the department of CT in YCCE. I was
-                            responsible for managing the hackathons, workshops and developing the events website and part of core
-                            committee in making decision for the welfare of the Fest.</p>
+                        <p class="text-muted" style="text-align: justify !important;">
+                            • Developed REST endpoints in Spring boot to be used by services in Angular from the frontend.<br>
+                            • Designed user interface using Angular 6 and incorporated ag-grid and pagination to elevate user experience by 30%.<br>
+                            • Developed API calls for various CRUD operations and implemented Dependency Injection design pattern to ensure loose coupling and proper separation of concerns.<br>
+                            • Implemented Hibernate ORM for interacting with the database and map it to various microservices.
+                        </p>
                         </div>
                     </div>
                     </li>
-                    
-                    <!-- <li>
-                    <div class="timeline-image">
-                        <img class="img-circle img-responsive" src="assets/img/about/hub.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                        <h5 class="subheading_red">Software Developer Intern </h5>
-                        <h5 class="subheading">Experts Hub</h5>
-                        <h5 class="subheading">Jun 2018-Aug 18 | Pune</h5>
-                        </div>
-                        <div class="timeline-body">
-                        <p class="text-muted">Integrated Cal-Tech pre trained dataset in an android application which works for image recognition</p>
-                        </div>
-                    </div>
-                    </li>
-                    
-                
-
-                    <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <img class="img-circle img-responsive" src="assets/img/about/healthcoco.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                        <h5 class="subheading_red">Android Developer</h5>
-                        <h5 class="subheading">Health-Coco</h5>
-                        <h5 class="subheading"> January - February 2019 | Nagpur</h5>
-                        </div>
-                        <div class="timeline-body">
-                        <p class="text-muted">Work with the team to build an application which enables patients to connect to the doctors and get prescriptions or medicines sitting at home via the application. </p>
-                        </div>
-                    </div>
-                    </li>
-
-                    <li >
-                    <div class="timeline-image">
-                        <img class="img-circle img-responsive" src="assets/img/about/unc-charlotte-squarelogo.png" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                        <h5 class="subheading_red">Computer Science</h5>
-                        <h5 class="subheading">University of North Carolina at Charlotte</h5>
-                        <h5 class="subheading"> August 2019 - Present | Charlotte</h5>
-                        </div>
-                        <div class="timeline-body">
-                        <p class="text-muted">Android Development|Web Development 
-                            Data Analytics|Database Systems</p>
-                        </div>
-                    </div>
-                    </li> -->
 
                     <li class="timeline-inverted">
                     <div class="timeline-image">
@@ -200,7 +148,9 @@
                         <h5 class="subheading"> Nov 2017 - Dec 2017 | Nagpur</h5>
                         </div>
                         <div class="timeline-body">
-                        <p class="text-muted">Responsible for teaching,grading assignments,exams and evaluating projects. </p>
+                        <p class="text-muted" style="text-align: justify !important;">• Developed user interface for a tourism android application using XML in Android Studio.<br>
+                            • Assisted in designing the NoSQL Firebase database for a tourism application.
+                            </p>
                         </div>
                     </div>
                     </li>
@@ -216,7 +166,7 @@
                             <h5 class="subheading">2015-2019</h5>
                             </div>
                             <div class="timeline-body">
-                            <p class="text-muted">I graduated from YCCE-Nagpur, Computer Technology &amp; Engineering Department in
+                            <p class="text-muted" style="text-align: justify !important;">• I graduated from YCCE-Nagpur, Computer Technology &amp; Engineering Department in
                                 May 2019 with 8.43 CGPA.</p>
                             </div>
                         </div>
@@ -234,7 +184,7 @@
             </div>
         </section>
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio" >
+        <section class="page-section portfolio" id="portfolio" style="background-image: linear-gradient(#f5f5f5,#fff);">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>

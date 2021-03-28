@@ -177,6 +177,10 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+#cross{
+  display: none; 
+}
+
 pre,
 code,
 kbd,
@@ -10307,7 +10311,7 @@ color:#C63D0F;
   }
 
   .timeline>li .timeline-panel {
-      padding: 0 20px 20px 100px;
+      padding: 0 20px 20px 80px;
   }
 
   .timeline>li .timeline-image {
@@ -10325,7 +10329,7 @@ color:#C63D0F;
   }
 
   .timeline>li.timeline-inverted>.timeline-panel {
-      padding: 0 100px 20px 20px;
+      padding: 0 80px 20px 20px;
   }
 }
 @media (min-width: 992px) {
