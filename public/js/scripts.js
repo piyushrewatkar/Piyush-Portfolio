@@ -37,6 +37,14 @@
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
       $('.navbar-collapse').collapse('hide');
+      $('#bars').toggle();
+      $('#cross').toggle();
+    });
+
+    $('.js-scroll-trigger-name').click(function() {
+      $('.navbar-collapse').collapse('hide');
+      $('#bars').show();
+      $('#cross').hide();
     });
   
     // Activate scrollspy to add active class to navbar items on scroll
