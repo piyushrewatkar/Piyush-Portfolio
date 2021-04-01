@@ -6089,7 +6089,8 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #212a33  !important;
+  /* background-color: #212a33  !important; */
+  background-color: rgba(33, 42, 51, .92) !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10483,7 +10484,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #212a33 ;
+  /* background-color: #212a33 ; */
+  background-color: rgba(33, 42, 51, .92);
   color: #fff;
 }
 
