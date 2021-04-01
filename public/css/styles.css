@@ -10078,7 +10078,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #4993D2;
+  color: #0078ff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10405,7 +10405,7 @@ color:#C63D0F;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #A1A3A4;
+  background-color: rgba(33, 37, 41, 0.5);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
