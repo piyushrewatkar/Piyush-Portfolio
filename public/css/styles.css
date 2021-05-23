@@ -10221,6 +10221,13 @@ color:#C63D0F;
 .service-heading{
   margin-top: 0.5rem;
 }
+#projects .portfolio-caption {
+  margin: 0 auto;
+  padding: 15px 2px 0;
+  max-width: 400px;
+  text-align: center;
+  background-color: #fff;
+}
 /* extra ends */
 
 .timeline .timeline-body>p,
